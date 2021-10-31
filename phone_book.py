@@ -29,5 +29,10 @@ def search_phone():
     else:
         print("not found")
             
-
+def save_contacts():
+    handler=open("numbers2.txt","w")
+    for contact in contacts:
+        name,mobile=contact
+        handler.write(f"{name},{mobile}\n")
+    handler.close()     
         
