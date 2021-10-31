@@ -18,7 +18,7 @@ def menu():
             print("enter a name")
             search_list()
         if choice=="4":
-            print("enter a phone number")
+            print("enter a phone number: ")
             search_phone()   
 
 
