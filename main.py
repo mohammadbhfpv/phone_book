@@ -21,9 +21,11 @@ def menu():
             search_list()
         if choice=="4":
             print("enter a phone number: ")
-            search_phone()   
+            search_phone()  
+         
 
 
-menu()    
+menu() 
+   
     
 

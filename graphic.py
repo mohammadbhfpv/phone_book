@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter.constants import RAISED
+from tkinter import messagebox
 window=tk.Tk()
 
 
@@ -11,5 +12,6 @@ for i in range(3):
         Label=tk.Label(master=frame,text=f"Row{i}\nColumn{j}")
         Label.pack()
         
+messagebox.showinfo(window, message="Hello!")
 
 window.mainloop()
